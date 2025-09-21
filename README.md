@@ -1,12 +1,15 @@
-# React + Vite
+# Verba - French Learning App <img src="https://flagcdn.com/fr.svg" width="25" alt="French Flag" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small, personal project to help me actually learn French, the app uses flashcards and a spaced-repetition idea so that words that matter stick. 
 
-Currently, two official plugins are available:
+This started as something simple I could finish from start to finish. It's intended to be useful for me or anyone who wants a clean, ad-free way to learn basic French vocabulary and phrases. Eventually, it will be a web PWA, a tiny downloadable desktop app, and if I get there, a mobile-friendly app for both iPhone and Android.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## What this repo contains (9.21.2025)
+A React + Vite app (TypeScript) - simple HTML.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Why I built this
+I learn faster when I build tools I use every day. This is both a study tool and my playground for practicing full-stack development, encompassing UI, data persistence, and deployment. I want something I'll keep coming back to and something I can show on GitHub that actually works.
