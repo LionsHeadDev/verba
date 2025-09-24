@@ -6,19 +6,37 @@
 }
 
 #welcome-swap {
-  
+  display: inline-block;
+  min-width: 9ch;
+  text-align: center;
+}
+
+.logo {
+  margin-right: -100px; 
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #eaf0ff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+nav {
+  flex: 1;               /* nav takes remaining space */
+  display: flex;
+  justify-content: center; /* centers the links */
+  gap: 0.75rem;
 }
 
 header {
   position: fixed;
   top: 12px;
-  right: 16px;
+  left: 0;
+  right: 0;
   z-index: 1000;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   background: transparent;
 }
 
@@ -42,7 +60,7 @@ header a:focus-visible {
   background: rgba(255,255,255,.12);
   box-shadow: 0 6px 16px rgba(0,0,0,.22);
   outline: none;
-  color: white;
+  color: white; 
 }
 
 header a:focus-visible {

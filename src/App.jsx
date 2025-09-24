@@ -18,10 +18,13 @@ function App() {
   return (
     <>
       <header>
-        <a href="http://localhost:5174/">Home</a>
+        <div className="logo">VERBA</div>
+        <nav>
+        <a href="http://localhost:5173/">Home</a>
         <a href="">Lessons Hub</a>
         <a href="">About</a> 
         <a href="">Contact</a>         
+        </nav>
       </header>
       <div>
         <h1>Bonjour, <span id='welcome-swap'>{word}</span> to Verba!</h1>
