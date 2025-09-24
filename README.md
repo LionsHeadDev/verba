@@ -6,8 +6,15 @@ This started as something simple I could finish from start to finish. It's inten
 
 ---
 
-## What this repo contains (9.21.2025)
-A React + Vite app (TypeScript) - simple HTML.
+## Changelog 
+### 2025-09-23
+
+## Added
+- fixed header with **VERBA** logo (left side) and centered navigation
+- pill-style navigation with hovering
+
+## Fixed
+- Home page welcome fixed, original problem was that navigation and other items were moving with the useState, fixed by chaning min-width to 9ch.
 
 ---
 
