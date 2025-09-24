@@ -2,6 +2,7 @@
 
 Verba is a project I’m building to actually teach French in a simple, structured way, with no ads or gimmicks. 
 Even if you're an absolute beginner or someone with advanced knowledge of French, Verba will cover everything, including greetings, grammar, and slang, to help you master French.
+
 ---
 
 ### Why I’m making this
