@@ -71,3 +71,22 @@ header a.active {
   background: rgba(122,162,255,.18);
   border-color: rgba(122,162,255,.4);
 }
+
+nav a {
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+nav a:hover {
+  background: #444;
+}
+
+/* Active link = green */
+nav a.active {
+  background: #00c853;  /* green highlight */
+  color: black;
+}

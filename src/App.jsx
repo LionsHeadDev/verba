@@ -1,36 +1,32 @@
-import { useState, useEffect } from 'react'
 import './App.css'
+import {Link, Routes, Route} from 'react-router-dom'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import { NavLink } from 'react-router-dom'
+
 
 function App() {
-  // Create a piece of state called "word"
-  // "word" holds the current value on the homepage and will display ("Welcome" or "Bienvenue")
-  // "setWord" is the function we will use to change the "word"
-  const [word, setWord] = useState("Welcome")
-
-  useEffect (() => {
-    const interval = setInterval(() => {
-      setWord(prev => prev === "Welcome" ? "Bienvenue" : "Welcome")
-    }, 1000)
-
-    return () => clearInterval(interval)
-  }, [])
-
   return (
     <>
       <header>
         <div className="logo">VERBA</div>
+
         <nav>
-        <a href="http://localhost:5173/">Home</a>
-        <a href="">Lessons Hub</a>
-        <a href="">About</a> 
-        <a href="">Contact</a>         
+          <NavLink to="/" end>Home</NavLink>
+          <NavLink to="/lessons">Lessons Hub</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/contact">Contact</NavLink> 
         </nav>
       </header>
-      <div>
-        <h1>Bonjour, <span id='welcome-swap'>{word}</span> to Verba!</h1>
-        <p>A completely free application to help you learn French</p>
-        <p>Not just words, but grammar, slang, sentence structure, and how to really speak like a Native!</p>
-      </div>
+      
+      <main>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/' element={<About />} />
+        <Route path="/lessons" element={<div>Lessons Hub — coming soon</div>} />
+        <Route path="/contact" element={<div>Contact — coming soon</div>} />
+      </Routes>
+      </main>
     </>
   )
 }
