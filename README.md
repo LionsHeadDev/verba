@@ -1,13 +1,22 @@
 # Verba - French Learning App <img src="https://flagcdn.com/fr.svg" width="25" alt="French Flag" />
 
-A small, personal project to help me actually learn French, the app uses flashcards and a spaced-repetition idea so that words that matter stick. 
+Verba is a small personal project to help me (and others) truly learn French from the ground up.  
+no ads, no basic learning, Verba is designed like an interactive free book: simple, structured lessons that teach greetings, grammar rules, slang, and real conversation flow.  
 
-This started as something simple I could finish from start to finish. It's intended to be useful for me or anyone who wants a clean, ad-free way to learn basic French vocabulary and phrases. Eventually, it will be a web PWA, a tiny downloadable desktop app, and if I get there, a mobile-friendly app for both iPhone and Android.
+The goal is to move beyond mere memorization of words. With Verba you’ll:
+- **Learn step by step** – from the basics to more advanced grammar
+- **Understand how French really works** – sentence structure, verb forms, and patterns
+- **Pick up real-world slang and expressions** – the way people actually talk
+- **Practice and test yourself** – short quizzes and exercises to make sure it sticks  
 
 ---
 
 ## Why I built this
-I learn faster when I build tools I use every day. This is both a study tool and my playground for practicing full-stack development, encompassing UI, data persistence, and deployment. I want something I'll keep coming back to and something I can show on GitHub that actually works.
+This project is also my full-stack playground. I’m building it to practice web development while creating something genuinely useful.  
+Eventually, Verba will grow into:
+- A **web app** (PWA) you can install offline  
+- A **desktop app** (via Tauri)  
+- And maybe one day, a **mobile app** for iOS and Android.  
 
 ---
 
