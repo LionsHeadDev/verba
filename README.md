@@ -21,3 +21,6 @@ This started as something simple I could finish from start to finish. It's inten
 
 ## Why I built this
 I learn faster when I build tools I use every day. This is both a study tool and my playground for practicing full-stack development, encompassing UI, data persistence, and deployment. I want something I'll keep coming back to and something I can show on GitHub that actually works.
+
+## 📜 Project History
+See the full [CHANGELOG](./CHANGELOG.md) for details.
