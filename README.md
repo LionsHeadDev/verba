@@ -6,18 +6,5 @@ This started as something simple I could finish from start to finish. It's inten
 
 ---
 
-## Changelog 
-### 2025-09-23
-
-## Added
-- Fixed header with **VERBA** logo (left side) and centered navigation
-- Pill-style navigation with hover states
-
-## Fixed
-- Home page welcome message no longer shifts layout when swapping text  
-  (used `min-width: 9ch` to keep space reserved)
-
----
-
 ## Why I built this
 I learn faster when I build tools I use every day. This is both a study tool and my playground for practicing full-stack development, encompassing UI, data persistence, and deployment. I want something I'll keep coming back to and something I can show on GitHub that actually works.
