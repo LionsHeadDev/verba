@@ -10,11 +10,12 @@ This started as something simple I could finish from start to finish. It's inten
 ### 2025-09-23
 
 ## Added
-- fixed header with **VERBA** logo (left side) and centered navigation
-- pill-style navigation with hovering
+- Fixed header with **VERBA** logo (left side) and centered navigation
+- Pill-style navigation with hover states
 
 ## Fixed
-- Home page welcome fixed, original problem was that navigation and other items were moving with the useState, fixed by chaning min-width to 9ch.
+- Home page welcome message no longer shifts layout when swapping text  
+  (used `min-width: 9ch` to keep space reserved)
 
 ---
 
