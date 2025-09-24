@@ -1,7 +1,7 @@
 # Verba - French Learning App <img src="https://flagcdn.com/fr.svg" width="25" alt="French Flag" />
 
 Verba is a project I’m building to actually teach French in a simple, structured way with no ads.  
-Just lessons that explain greetings, grammar, slang, and how people really speak.  
+Just lessons that explain greetings, grammar, slang, and how native French people really speak.  
 
 ---
 
